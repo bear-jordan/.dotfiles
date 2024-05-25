@@ -36,8 +36,8 @@ zinit snippet OMZP::command-not-found
 
 # Set keybindings
 bindkey -v
-# bindkey "^," history-search-backward
-# bindkey "^." history-search-forward
+# bindkey "^p" history-search-backward
+# bindkey "^n" history-search-forward
 
 # Persist history
 HISTSIZE=5000
