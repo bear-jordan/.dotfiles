@@ -36,7 +36,6 @@ zinit snippet OMZP::command-not-found
 
 # Set keybindings
 bindkey -v
-bindkey -s "^f" "tmux-sessionizer\n"
 # bindkey "^p" history-search-backward
 # bindkey "^n" history-search-forward
 
