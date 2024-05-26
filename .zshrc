@@ -79,3 +79,6 @@ alias pytree="tree -I venv -I __pycache__"
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
+
+# Path
+export PATH="$HOME/.local/bin:$PATH"
