@@ -81,4 +81,4 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 
 # Path
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/bin/.local/bin:$PATH"
