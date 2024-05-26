@@ -1,0 +1,5 @@
+[user]
+    email = bearjordan@gmail.com
+    name = bear-jordan
+[submodule]
+    recurse = true
