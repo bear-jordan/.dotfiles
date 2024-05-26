@@ -36,6 +36,7 @@ zinit snippet OMZP::command-not-found
 
 # Set keybindings
 bindkey -v
+bindkey -s "^f" "tmux-sessionizer\n"
 # bindkey "^p" history-search-backward
 # bindkey "^n" history-search-forward
 
@@ -70,6 +71,7 @@ alias c="clear"
 alias ll="ls -al"
 alias initv="virtualenv venv;source ./venv/bin/activate"
 alias pytree="tree -I venv -I __pycache__"
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
