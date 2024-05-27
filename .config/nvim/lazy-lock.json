@@ -12,6 +12,7 @@
   "nvim-tmux-navigation": { "branch": "main", "commit": "4898c98702954439233fdaf764c39636681e2861" },
   "nvim-treesitter": { "branch": "master", "commit": "78e11ab7cedabe5dfb3b600c6682712271c59acf" },
   "nvim-web-devicons": { "branch": "master", "commit": "b77921fdc44833c994fdb389d658ccbce5490c16" },
+  "obsidian.nvim": { "branch": "main", "commit": "db41b1f20459293436fab510bec58c82a73bd1f7" },
   "persistence.nvim": { "branch": "main", "commit": "5fe077056c821aab41f87650bd6e1c48cd7dd047" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
   "telescope-ui-select.nvim": { "branch": "master", "commit": "6e51d7da30bd139a6950adf2a47fda6df9fa06d2" },
