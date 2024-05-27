@@ -75,6 +75,7 @@ alias wnotes="cd ~/vaults/work;nvim ."
 alias ..="cd ../.."
 alias ...="cd ../../.."
 alias ....="cd ../../../.."
+alias hist="history | fzf"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
