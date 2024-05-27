@@ -70,8 +70,11 @@ alias c="clear"
 alias ll="ls -al"
 alias initv="virtualenv venv;source ./venv/bin/activate"
 alias pytree="tree -I venv -I __pycache__"
-alias notes="nvim ~/vaults/personal"
-alias wnotes="nvim ~/vaults/work"
+alias notes="cd ~/vaults/personal;nvim ."
+alias wnotes="cd ~/vaults/work;nvim ."
+alias ..="cd ../.."
+alias ...="cd ../../.."
+alias ....="cd ../../../.."
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
