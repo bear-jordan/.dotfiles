@@ -71,12 +71,14 @@ alias ll="ls -al"
 alias initv="virtualenv venv;source ./venv/bin/activate"
 alias pytree="tree -I venv -I __pycache__"
 alias notes="cd ~/vaults/personal;nvim ."
-alias wnotes="cd ~/vaults/work;nvim ."
-alias ..="cd ../.."
-alias ...="cd ../../.."
-alias ....="cd ../../../.."
-alias hist="history | fzf"
 
+# ENV
+export PATH="$HOME/.local/bin:$PATH"
+export PYTHONPATH="/opt/homebrew/bin/python3"
+export DEMSDATA_USERNAME="jordanb"
+eval "$(pyenv init --path)"
+export DBT_STATE="target/prod_manifest"
+export EDITOR="$(which nvim)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
