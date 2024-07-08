@@ -21,8 +21,10 @@ wk.register({
     f = {
         name = "find",
         f = { "<cmd>Telescope find_files<cr>", "files" },
+        r = { "<cmd>Telescope oldfiles<cr>", "recent" },
         a = { "<cmd>Telescope find_files hidden=true<cr>", "all" },
         g = { "<cmd>Telescope live_grep<cr>", "grep" },
+        s = { "<cmd>Telescope grep_string<cr>", "grep_string" },
         t = { "<cmd>Neotree toggle<cr>", "tree" },
     },
     o = {
